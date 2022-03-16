@@ -1,0 +1,56 @@
+/*## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)*/
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+  height: 100vh;
+  max-width: 1440px;
+  min-width: 375px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5%;
+  border-radius: 1.5em;
+  background-color: white;
+  width: 18rem;
+}
+
+.card img {
+  border-radius: 1.5em;
+}
+
+.qr-text {
+  margin: 1em 0em;
+  text-align: center;
+  padding: 0 0.5em;
+  font-size: 1rem;
+}
+
+.qr-text h1 {
+  font-size: 1.5rem;
+  color: hsl(218, 44%, 22%);
+}
+
+.qr-text p {
+  font-size: 1rem;
+  color: hsl(220, 15%, 55%); 
+}
+
+
+
+
